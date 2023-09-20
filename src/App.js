@@ -1,5 +1,5 @@
 import React from 'react'
-import Restorunt from "./Componts/Baisic/Restorunt"
+import Hotel from "./Componts/Baisic/Hotel"
 import "./Componts/Baisic/Appna.css";
 // import Har from './Componts/HOOKS/Har';
 // import useEffect from './Componts/HOOKS/useEffect';
@@ -10,7 +10,7 @@ const App = () => {
     <>
     <div className='container'>
   
-      <Restorunt/>
+      <Hotel/>
     </div>
     </>
   );

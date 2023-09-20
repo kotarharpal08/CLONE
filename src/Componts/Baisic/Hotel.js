@@ -11,7 +11,7 @@ const uniquelist = [
  ),
  "all",
 ]
-const Restorunt = () => {
+const Hotel = () => {
   const[menuData,setMenuData]= useState(Menu);
   const[menulist,setMenulist]= useState(uniquelist);
   const filterItem =(Categgory)=>{
@@ -37,4 +37,4 @@ const Restorunt = () => {
   )
 }
 
-export default Restorunt
+export default Hotel
